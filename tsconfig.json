@@ -1,0 +1,14 @@
+{
+	"compilerOptions": {
+		"module": "system",
+		"noImplicitAny": true,
+		"removeComments": true,
+		"preserveConstEnums": true,
+		"outFile": "bin/game.js",
+		"sourceMap": true,
+	},
+	"include": [
+		"src/**/*.ts",
+		"lib/types/phaser.comments.d.ts"
+	]
+}

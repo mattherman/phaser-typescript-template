@@ -4,7 +4,7 @@ module MyGame {
     
            background: Phaser.Sprite;
            music: Phaser.Sound;
-           player: Castlevania.Player;
+           player: MyGame.Player;
     
            create() {
     
