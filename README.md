@@ -11,6 +11,6 @@ The resulting output of building the project is a runnable "game" that can serve
 ## Version
 The current version of phaser-ce targeted by the template is 2.9.1.
 
-The upgrade-phaser.sh script at the root of the repository can be used to upgrade the library to the latest version. To run it you must clone the latest [phaser-ce](https://github.com/photonstorm/phaser-ce) repository and point the script to its location. From there it will copy the necessary assets into the template's `lib` directory. 
+To upgrade the library to the latest version, please see the instructions in `lib/REAMDE.md`.
 
 This template was built with v2.5.3 of the Typescript compiler, but may work on older versions.
