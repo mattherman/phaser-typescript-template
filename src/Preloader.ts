@@ -9,7 +9,7 @@ module MyGame {
 		preload() {
 
 			//	These are the assets we loaded in Boot.js
-			this.preloadBar = this.add.sprite(300, 400, 'preloaderBar');
+			this.preloadBar = this.add.sprite(300, 400, 'preloadBar');
 
 			//	This sets the preloadBar sprite as a loader sprite.
 			//	What that does is automatically crop the sprite from 0 to full-width

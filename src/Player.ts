@@ -6,6 +6,8 @@ module MyGame {
 
 			super(game, x, y, 'simon', 0);
 
+			this.game.physics.arcade.enableBody(this);
+			
 			this.anchor.setTo(0.5, 0);
 
 			this.animations.add('walk', [0, 1, 2, 3, 4], 10, true);
