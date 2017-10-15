@@ -4,7 +4,7 @@ module MyGame {
 
 		constructor(game: Phaser.Game, x: number, y: number) {
 
-			super(game, x, y, 'player', 0);
+			super(game, x, y, 'simon', 0);
 
 			this.anchor.setTo(0.5, 0);
 
